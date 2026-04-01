@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Golden Turkish Kitchen Menu</title>
+  <style>
+    :root {
+      --bg: #0b0b0b;
+      --card: #111111;
+      --gold: #d9b24c;
+      --text: #f5f1e6;
+      --muted: #cfc6aa;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(180deg, #050505 0%, #111 100%);
+      color: var(--text);
+    }
+    .wrap {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 28px 18px 48px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      color: var(--gold);
+      text-align: center;
+      letter-spacing: 0.5px;
+    }
+    .sub {
+      text-align: center;
+      color: var(--muted);
+      margin-bottom: 24px;
+    }
+    .contact {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 24px;
+      color: var(--muted);
+      font-size: 15px;
+    }
+    .pill {
+      border: 1px solid rgba(217,178,76,0.45);
+      background: rgba(217,178,76,0.07);
+      padding: 10px 14px;
+      border-radius: 999px;
+    }
+    .grid {
+      display: grid;
+      gap: 18px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid rgba(217,178,76,0.25);
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.35);
+    }
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    .footer {
+      text-align: center;
+      color: #b7ae95;
+      margin-top: 28px;
+      font-size: 14px;
+    }
+    a { color: var(--gold); text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Golden Turkish Kitchen</h1>
+    <div class="sub">Menu</div>
+    <div class="contact">
+      <div class="pill">Instagram: @goldenturkishkitchen</div>
+      <div class="pill">Phone: 1 (306) 652-0818</div>
+    </div>
+    <div class="grid">
+      <div class="card"><img src="assets/Breakfast.jpg" alt="Golden Turkish Kitchen menu page" /></div>
+      <div class="card"><img src="assets/2.jpg" alt="Golden Turkish Kitchen menu page" /></div>
+      <div class="card"><img src="assets/3.jpg" alt="Golden Turkish Kitchen menu page" /></div>
+    </div>
+    <div class="footer">Scan-ready webpage package for Golden Turkish Kitchen.</div>
+  </div>
+</body>
+</html>
